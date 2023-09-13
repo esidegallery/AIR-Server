@@ -1,0 +1,16 @@
+{
+	"type": "lib",
+	"config": "air",
+	"compilerOptions": {
+		"output": "bin/AIRServer.swc",
+		"source-path": [
+			"src"
+		],
+		"library-path": [
+			"libs"
+		],
+		"include-sources": [
+			"src"
+		]
+	}
+}
