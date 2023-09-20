@@ -455,9 +455,6 @@ package be.aboutme.airserver.endpoints.socket.handlers.websocket
 			}
 		}
 
-		/*
-		
-		*/
 		protected function sendHybi10Data(aWriteFinal:Boolean, aRes1:Boolean, aRes2:Boolean, aRes3:Boolean, aWriteCode:int, aStream:ByteArray):Boolean
 		{
 			var result:Boolean = !closed; // && (aWriteCode == FRAME_CLOSE);
